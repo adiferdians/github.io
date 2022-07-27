@@ -299,7 +299,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/skets.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -889,7 +889,7 @@ section {
 }
 
 .services .iconbox-blue i {
-  color: #47aeff;
+  color: #004b85;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -897,11 +897,11 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #004b85;
 }
 
 .services .iconbox-orange i {
-  color: #ffa76e;
+  color: #f31111;
 }
 
 .services .iconbox-orange:hover .icon i {
@@ -909,7 +909,7 @@ section {
 }
 
 .services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #f31111;
 }
 
 .services .iconbox-pink i {
