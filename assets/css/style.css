@@ -121,6 +121,10 @@ h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+
+  #hero:before {
+    background: rgba(255, 255, 255, 0.8);
+  }
 }
 
 /*--------------------------------------------------------------
@@ -144,11 +148,18 @@ h6 {
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
+  #hero:before {
+    background: rgba(255, 255, 255, 0.8);
+  }
 }
 
 @media (min-width: 992px) {
   #main {
     margin-left: 100px;
+  }
+
+    #hero:before {
+    background: rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -213,6 +224,10 @@ h6 {
   .nav-menu a:focus span {
     display: none;
     color: #fff;
+  }
+
+  #hero:before {
+    background: rgba(255, 255, 255, 0.2);
   }
 }
 
@@ -293,6 +308,10 @@ h6 {
   #hero {
     padding-left: 160px;
   }
+
+  #hero:before {
+    background: rgba(255, 255, 255, 0.2);
+  }
 }
 
 #hero:before {
@@ -345,6 +364,10 @@ h6 {
 @media (max-width: 992px) {
   #hero {
     text-align: center;
+  }
+
+  #hero:before {
+    background: rgba(255, 255, 255, 0.8);
   }
 
   #hero h1 {
@@ -1017,6 +1040,10 @@ section {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+  }
+
+  #hero:before {
+    background: rgba(255, 255, 255, 0.2);
   }
 }
 
